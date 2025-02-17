@@ -1,2 +1,13 @@
+# python version
+3.11.0
+
 # 使い方
-streamlit run main3.py
+ターミナルで以下のコマンドを実行
+1. python3 -m venv venv
+2. pip3 install -r requirements.txt<br>
+-------仮想環境が用意できている場合はここから下-------
+3. mkdir .dotenv
+4. .dotenvに以下の値を設定<br>
+OPENAI_API_KEY = API KEY
+YOUTUBE_DEVELOPER_KEY = API KEY
+5. streamlit run main.py
