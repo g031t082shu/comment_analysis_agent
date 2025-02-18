@@ -11,6 +11,6 @@ pythonのバージョンを3.11.0を必ず使用する
 -------仮想環境が用意できている場合はここから下-------
 3. $mkdir .env
 4. .envに以下の値を設定<br>
-OPENAI_API_KEY = API KEY
+OPENAI_API_KEY = API KEY<br>
 YOUTUBE_DEVELOPER_KEY = API KEY
 5. $streamlit run main.py
